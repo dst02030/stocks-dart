@@ -1,0 +1,23 @@
+CREATE TABLE IF NOT EXISTS dart.km_cap_increase (
+    _ts timestamptz NOT NULL,
+    접수번호 VARCHAR(14),
+    법인구분 CHAR(1),
+    고유번호 VARCHAR(8),
+    회사명 VARCHAR(100),
+    신주_보통주식수 BIGINT,
+    신주_기타주식수 BIGINT,
+    주당액면가 INT,
+    증자전보통주식총수 BIGINT,
+    증자전기타주식총수 BIGINT,
+    시설자금 BIGINT,
+    영업양수자금 BIGINT,
+    운영자금 BIGINT,
+    채무상환자금 BIGINT,
+    타법인증권취득자금 BIGINT,
+    기타자금 BIGINT,
+    증자방식 TEXT,
+    공매도해당여부 CHAR(1),
+    공매도시작일 DATE,
+    공매도종료일 DATE,
+    PRIMARY KEY (접수번호) 
+);

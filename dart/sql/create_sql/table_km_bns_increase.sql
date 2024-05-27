@@ -1,0 +1,23 @@
+CREATE TABLE IF NOT EXISTS dart.km_bns_increase (
+    _ts timestamptz NOT NULL,
+    접수번호 VARCHAR(14),
+    법인구분 CHAR(1),
+    고유번호 VARCHAR(8),
+    회사명 VARCHAR(100),
+    신주_보통주식수 BIGINT,
+    신주_기타주식수 BIGINT,
+    주당액면가 INT,
+    증자전보통주식총수 BIGINT,
+    증자전기타주식총수 BIGINT,
+    신주배정기준일 DATE,
+    주당보통주배정수 BIGINT,
+    주당기타주배정수 BIGINT,
+    신주배당기산일 DATE,
+    신주권교부예정일 DATE,
+    신주상장예정일 DATE,
+    이사회결의일 DATE,
+    사외이사참석수 SMALLINT,
+    사외이사불참수 SMALLINT,
+    감사위원참석여부 CHAR(100),
+    PRIMARY KEY (접수번호) 
+);

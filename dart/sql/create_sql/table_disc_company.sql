@@ -1,0 +1,21 @@
+CREATE TABLE IF NOT EXISTS dart.disc_company (
+    _ts timestamptz NOT NULL,
+    고유번호 VARCHAR(8) NOT NULL,
+    정식명칭 VARCHAR(255),
+    영문명칭 VARCHAR(255),
+    종목명 VARCHAR(255),
+    종목코드 CHAR(6) Not Null,
+    대표자명 VARCHAR(255) Not Null,
+    법인구분 CHAR(1) Not Null,
+    법인등록번호 CHAR(13) Not Null,
+    사업자등록번호 CHAR(10) Not Null,
+    주소 VARCHAR(255) Not Null,
+    홈페이지 VARCHAR(255) Not Null,
+    IR홈페이지 VARCHAR(255) Not Null,
+    전화번호 VARCHAR(20) Not Null,
+    팩스번호 VARCHAR(20) Not Null,
+    업종코드 VARCHAR(10) Not Null,
+    설립일 Date Not Null,
+    결산월 CHAR(2),
+    PRIMARY KEY ("고유번호", "결산월")
+);

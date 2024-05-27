@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--This Document Created with flare torix from ESOL D&P-->
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:dart-gcd="http://dart.fss.or.kr/taxonomy/2022-12-01/ifrs/dart-gcd" xmlns:dart="http://dart.fss.or.kr/taxonomy/2022-12-01/ifrs/dart" xmlns:dartLabel="http://dart.fss.or.kr/role/2022-12-01/ifrs/dart_label" xmlns:ifrs-full="http://xbrl.ifrs.org/taxonomy/2021-03-24/ifrs-full" xmlns:rol_dart="http://dart.fss.or.kr/role/2022-12-01/ifrs/rol_dart" xmlns:rol_dart-gcd="http://dart.fss.or.kr/role/2022-12-01/ifrs/rol_dart-gcd" xmlns:entity00403793="http://dart.fss.or.kr/taxonomy/2023-09-30/entity00403793" xmlns:info="http://xbrl.iasb.org/info" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:negated="http://www.xbrl.org/2009/role/negated" xmlns:net="http://www.xbrl.org/2009/role/net" xmlns:nonnum="http://www.xbrl.org/dtr/type/non-numeric" xmlns:num="http://www.xbrl.org/dtr/type/numeric" xmlns:ref="http://www.xbrl.org/2006/ref" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xl="http://www.xbrl.org/2003/XLink" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="http://dart.fss.or.kr/taxonomy/2023-09-30/entity00403793" attributeFormDefault="unqualified" elementFormDefault="qualified">
+  <xsd:annotation>
+    <xsd:appinfo>
+      <link:linkbaseRef xlink:type="simple" xlink:href="http://dart.fss.or.kr/Resource/Taxonomy/ifrs/2022-12-01/gcd/pre_dart-gcd_2022-12-01.xml" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:title="Presentation Links, all" />
+      <link:linkbaseRef xlink:type="simple" xlink:href="http://dart.fss.or.kr/Resource/Taxonomy/ifrs/2022-12-01/gcd/def_dart-gcd_2022-12-01.xml" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:title="Definition Links, all" />
+      <link:linkbaseRef xlink:type="simple" xlink:href="http://dart.fss.or.kr/Resource/Taxonomy/ifrs/2022-12-01/labels/lab_dart-gcd-ko_2022-12-01.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:title="Label Links, Korean" />
+      <link:linkbaseRef xlink:type="simple" xlink:href="http://dart.fss.or.kr/Resource/Taxonomy/ifrs/2022-12-01/labels/lab_dart-gcd-en_2022-12-01.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:title="Label Links, English" />
+      <link:linkbaseRef xlink:type="simple" xlink:href="entity00403793_2023-09-30_pre.xml" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:title="Presentation Links, all" />
+      <link:linkbaseRef xlink:type="simple" xlink:href="entity00403793_2023-09-30_def.xml" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:title="Definition Links, all" />
+      <link:linkbaseRef xlink:type="simple" xlink:href="entity00403793_2023-09-30_cal.xml" xlink:role="http://www.xbrl.org/2003/role/calculationLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:title="Calculation Links, all" />
+      <link:linkbaseRef xlink:type="simple" xlink:href="entity00403793_2023-09-30_lab-ko.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:title="Label Links, Korean" />
+      <link:linkbaseRef xlink:type="simple" xlink:href="entity00403793_2023-09-30_lab-en.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:title="Label Links, English" />
+      <link:roleType id="dart_2022-12-01_role-D210000" roleURI="http://dart.fss.or.kr/role/ifrs/dart_2022-12-01_role-D210000">
+        <link:definition>[D210000] 재무상태표, 유동/비유동법 - 연결 | Statement of financial position, current/non-current - Consolidated financial statements</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="dart_2022-12-01_role-D210005" roleURI="http://dart.fss.or.kr/role/ifrs/dart_2022-12-01_role-D210005">
+        <link:definition>[D210005] 재무상태표, 유동/비유동법 - 별도 | Statement of financial position, current/non-current - Separate financial statements</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="dart_2022-12-01_role-D431410" roleURI="http://dart.fss.or.kr/role/ifrs/dart_2022-12-01_role-D431410">
+        <link:definition>[D431410] 단일 포괄손익계산서, 기능별 분류, 세후 - 연결 | Statement of comprehensive income, by function of expense - Consolidated financial statements</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="dart_2022-12-01_role-D431415" roleURI="http://dart.fss.or.kr/role/ifrs/dart_2022-12-01_role-D431415">
+        <link:definition>[D431415] 단일 포괄손익계산서, 기능별 분류, 세후 - 별도 | Statement of comprehensive income, by function of expense - Separate financial statements</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="dart_2022-12-01_role-D510000" roleURI="http://dart.fss.or.kr/role/ifrs/dart_2022-12-01_role-D510000">
+        <link:definition>[D510000] 현금흐름표, 직접법 - 연결 | Statement of cash flows, direct method - Consolidated financial statements</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="dart_2022-12-01_role-D510005" roleURI="http://dart.fss.or.kr/role/ifrs/dart_2022-12-01_role-D510005">
+        <link:definition>[D510005] 현금흐름표, 직접법 - 별도 | Statement of cash flows, direct method - Separate financial statements</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="dart_2022-12-01_role-D610000" roleURI="http://dart.fss.or.kr/role/ifrs/dart_2022-12-01_role-D610000">
+        <link:definition>[D610000] 자본변동표 - 연결 | Statement of changes in equity - Consolidated financial statements</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="dart_2022-12-01_role-D610005" roleURI="http://dart.fss.or.kr/role/ifrs/dart_2022-12-01_role-D610005">
+        <link:definition>[D610005] 자본변동표 - 별도 | Statement of changes in equity - Separate financial statements</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+    </xsd:appinfo>
+  </xsd:annotation>
+  <xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd" />
+  <xsd:import namespace="http://www.xbrl.org/dtr/type/numeric" schemaLocation="http://www.xbrl.org/dtr/type/numeric-2009-12-16.xsd" />
+  <xsd:import namespace="http://www.xbrl.org/dtr/type/non-numeric" schemaLocation="http://www.xbrl.org/dtr/type/nonNumeric-2009-12-16.xsd" />
+  <xsd:import namespace="http://xbrl.org/2005/xbrldt" schemaLocation="http://www.xbrl.org/2005/xbrldt-2005.xsd" />
+  <xsd:import namespace="http://www.xbrl.org/2009/role/negated" schemaLocation="http://www.xbrl.org/lrr/role/negated-2009-12-16.xsd" />
+  <xsd:import namespace="http://www.xbrl.org/2009/role/net" schemaLocation="http://www.xbrl.org/lrr/role/net-2009-12-16.xsd" />
+  <xsd:import namespace="http://www.xbrl.org/2006/ref" schemaLocation="http://www.xbrl.org/2006/ref-2006-02-27.xsd" />
+  <xsd:import namespace="http://xbrl.ifrs.org/taxonomy/2021-03-24/ifrs-full" schemaLocation="http://dart.fss.or.kr/Resource/Taxonomy/ifrs/2022-12-01/full_ifrs/full_ifrs-cor_2021-03-24.xsd" />
+  <xsd:import namespace="http://dart.fss.or.kr/taxonomy/2022-12-01/ifrs/dart" schemaLocation="http://dart.fss.or.kr/Resource/Taxonomy/ifrs/2022-12-01/dart_2022-12-01.xsd" />
+  <xsd:import namespace="http://dart.fss.or.kr/role/2022-12-01/ifrs/dart_label" schemaLocation="http://dart.fss.or.kr/Resource/Taxonomy/ifrs/2022-12-01/labels/rol_dart-label_2022-12-01.xsd" />
+  <xsd:import namespace="http://dart.fss.or.kr/taxonomy/2022-12-01/ifrs/dart-gcd" schemaLocation="http://dart.fss.or.kr/Resource/Taxonomy/ifrs/2022-12-01/dart-gcd_2022-12-01.xsd" />
+  <xsd:element xbrli:periodType="duration" name="udf_CE_2021429111926951_StatementOfChangesInEquityLineItems" type="xbrli:monetaryItemType" id="entity00403793_udf_CE_2021429111926951_StatementOfChangesInEquityLineItems" substitutionGroup="xbrli:item" abstract="false" nillable="true" />
+  <xsd:element xbrli:periodType="duration" xbrli:balance="debit" name="udf_IS_2021513172951201_StatementOfComprehensiveIncomeAbstract" type="xbrli:monetaryItemType" id="entity00403793_udf_IS_2021513172951201_StatementOfComprehensiveIncomeAbstract" substitutionGroup="xbrli:item" abstract="false" nillable="true" />
+  <xsd:element xbrli:periodType="duration" xbrli:balance="credit" name="udf_IS_2021513174434461_OtherComprehensiveIncomeThatWillBeReclassifiedToProfitOrLossNetOfTax" type="xbrli:monetaryItemType" id="entity00403793_udf_IS_2021513174434461_OtherComprehensiveIncomeThatWillBeReclassifiedToProfitOrLossNetOfTax" substitutionGroup="xbrli:item" abstract="false" nillable="true" />
+  <xsd:element xbrli:periodType="duration" name="udf_CE_2021816181810932_StatementOfChangesInEquityLineItems" type="xbrli:monetaryItemType" id="entity00403793_udf_CE_2021816181810932_StatementOfChangesInEquityLineItems" substitutionGroup="xbrli:item" abstract="false" nillable="true" />
+  <xsd:element xbrli:periodType="duration" xbrli:balance="credit" name="udf_IS_20211151265017_StatementOfComprehensiveIncomeAbstract" type="xbrli:monetaryItemType" id="entity00403793_udf_IS_20211151265017_StatementOfComprehensiveIncomeAbstract" substitutionGroup="xbrli:item" abstract="false" nillable="true" />
+  <xsd:element xbrli:periodType="duration" name="udf_CE_202387133027483_StatementOfChangesInEquityLineItems" type="xbrli:monetaryItemType" id="entity00403793_udf_CE_202387133027483_StatementOfChangesInEquityLineItems" substitutionGroup="xbrli:item" abstract="false" nillable="true" />
+  <xsd:element xbrli:periodType="duration" xbrli:balance="credit" name="udf_CF_20238713544665_CashFlowsFromUsedInFinancingActivities" type="xbrli:monetaryItemType" id="entity00403793_udf_CF_20238713544665_CashFlowsFromUsedInFinancingActivities" substitutionGroup="xbrli:item" abstract="false" nillable="true" />
+  <xsd:element xbrli:periodType="duration" xbrli:balance="credit" name="udf_IS_2023871495665_ProfitLossAttributableToOwnersOfParent" type="xbrli:monetaryItemType" id="entity00403793_udf_IS_2023871495665_ProfitLossAttributableToOwnersOfParent" substitutionGroup="xbrli:item" abstract="false" nillable="true" />
+  <xsd:element xbrli:periodType="duration" xbrli:balance="credit" name="udf_IS_20238714926939_ProfitLossAttributableToOwnersOfParent" type="xbrli:monetaryItemType" id="entity00403793_udf_IS_20238714926939_ProfitLossAttributableToOwnersOfParent" substitutionGroup="xbrli:item" abstract="false" nillable="true" />
+  <xsd:element xbrli:periodType="duration" xbrli:balance="credit" name="udf_IS_20238714948992_ProfitLossAttributableToNoncontrollingInterests" type="xbrli:monetaryItemType" id="entity00403793_udf_IS_20238714948992_ProfitLossAttributableToNoncontrollingInterests" substitutionGroup="xbrli:item" abstract="false" nillable="true" />
+  <xsd:element xbrli:periodType="duration" xbrli:balance="credit" name="udf_IS_20238714100353_ProfitLossAttributableToNoncontrollingInterests" type="xbrli:monetaryItemType" id="entity00403793_udf_IS_20238714100353_ProfitLossAttributableToNoncontrollingInterests" substitutionGroup="xbrli:item" abstract="false" nillable="true" />
+  <xsd:element xbrli:periodType="duration" name="udf_CE_202387141340850_StatementOfChangesInEquityLineItems" type="xbrli:monetaryItemType" id="entity00403793_udf_CE_202387141340850_StatementOfChangesInEquityLineItems" substitutionGroup="xbrli:item" abstract="false" nillable="true" />
+  <xsd:element xbrli:periodType="duration" name="udf_CE_202387141829671_StatementOfChangesInEquityLineItems" type="xbrli:monetaryItemType" id="entity00403793_udf_CE_202387141829671_StatementOfChangesInEquityLineItems" substitutionGroup="xbrli:item" abstract="false" nillable="true" />
+  <xsd:element xbrli:periodType="duration" name="udf_CE_202387151159357_StatementOfChangesInEquityLineItems" type="xbrli:monetaryItemType" id="entity00403793_udf_CE_202387151159357_StatementOfChangesInEquityLineItems" substitutionGroup="xbrli:item" abstract="false" nillable="true" />
+  <xsd:element xbrli:periodType="duration" xbrli:balance="credit" name="udf_CF_202387155747100_CashFlowsFromUsedInFinancingActivities" type="xbrli:monetaryItemType" id="entity00403793_udf_CF_202387155747100_CashFlowsFromUsedInFinancingActivities" substitutionGroup="xbrli:item" abstract="false" nillable="true" />
+  <xsd:element xbrli:periodType="duration" name="udf_CE_2023810105653874_StatementOfChangesInEquityLineItems" type="xbrli:monetaryItemType" id="entity00403793_udf_CE_2023810105653874_StatementOfChangesInEquityLineItems" substitutionGroup="xbrli:item" abstract="false" nillable="true" />
+  <xsd:element xbrli:periodType="duration" xbrli:balance="credit" name="ProfitsOfAssociatesAndJointVenturesAccountedForUsingEquityMethodOfStatementOfComprehensiveIncomeAbstract" type="xbrli:monetaryItemType" id="entity00403793_ProfitsOfAssociatesAndJointVenturesAccountedForUsingEquityMethodOfStatementOfComprehensiveIncomeAbstract" substitutionGroup="xbrli:item" abstract="false" nillable="true" />
+  <xsd:element xbrli:periodType="duration" xbrli:balance="debit" name="LossesOfAssociatesAndJointVenturesAccountedForUsingEquityMethodOfStatementOfComprehensiveIncomeAbstract" type="xbrli:monetaryItemType" id="entity00403793_LossesOfAssociatesAndJointVenturesAccountedForUsingEquityMethodOfStatementOfComprehensiveIncomeAbstract" substitutionGroup="xbrli:item" abstract="false" nillable="true" />
+  <xsd:element xbrli:periodType="duration" xbrli:balance="credit" name="NetCashOutflowDueToBusinessCombinationOfCashFlowsFromUsedInInvestingActivities" type="xbrli:monetaryItemType" id="entity00403793_NetCashOutflowDueToBusinessCombinationOfCashFlowsFromUsedInInvestingActivities" substitutionGroup="xbrli:item" abstract="false" nillable="true" />
+</xsd:schema>
